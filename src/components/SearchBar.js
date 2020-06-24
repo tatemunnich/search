@@ -31,6 +31,7 @@ export class SearchBar extends Component {
                     value="Search"
                     className="btn"
                     style={{flex: '1'}}
+                    hidden='true'
                 />
             </form>
         );

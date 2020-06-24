@@ -12,17 +12,17 @@ class App extends React.Component {
             {
                 id: 1,
                 name: 'Facebook',
-                classification: 99
+                classification: '99'
             },
             {
                 id: 2,
                 name: 'Learn Chinese',
-                classification: 3
+                classification: '3'
             },
             {
                 id: 3,
                 name: 'Bible Free',
-                classification: 5
+                classification: '5'
             }
         ],
         app_results: []
