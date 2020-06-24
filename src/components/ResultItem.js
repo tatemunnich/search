@@ -8,14 +8,14 @@ export class ResultItem extends Component {
             padding: '10px',
             borderBottom: '1px #ccc dotted',
             textAlign: 'left',
-            color: this.props.app.category === 99 ? 'red':'black'
+            color: this.props.app.classification === '99' ? 'red':'black'
         }
     }
 
     render() {
         return (
             <div style={this.getStyle()}>
-                <p>{this.props.app.name+': '+this.props.app.category}</p>
+                <p>{this.props.app.name+': '+this.props.app.classification}</p>
             </div>
         )
     }

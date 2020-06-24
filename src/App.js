@@ -12,24 +12,29 @@ class App extends React.Component {
             {
                 id: 1,
                 name: 'Facebook',
-                category: 99
+                classification: 99
             },
             {
                 id: 2,
                 name: 'Learn Chinese',
-                category: 3
+                classification: 3
             },
             {
                 id: 3,
                 name: 'Bible Free',
-                category: 5
+                classification: 5
             }
         ],
         app_results: []
     }
 
+    componentDidMount() {
+        const data = require('./app_data/data.json')
+        this.setState({apps: data})
+    }
+
     appSearch = (query) => {
-        if (query !== '') {
+        if (query.length > 3) {
             const query_lc = query.toLowerCase()
             const filter = [...this.state.apps.filter(app => app.name.toLowerCase().includes(query_lc))]
             this.setState({app_results: filter})
