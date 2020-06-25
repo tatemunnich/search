@@ -1,31 +1,18 @@
-import React from 'react';
-import './App.css';
+import React, {Component} from 'react';
+import './css/App.css';
 
-import Results from "./components/Results";
+import Results from "./components/results/Results";
 import Header from "./components/layout/Header";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/search/SearchBar";
 
-class App extends React.Component {
-
-    state = {
-        apps: [
-            {
-                id: 1,
-                name: 'Facebook',
-                classification: '99'
-            },
-            {
-                id: 2,
-                name: 'Learn Chinese',
-                classification: '3'
-            },
-            {
-                id: 3,
-                name: 'Bible Free',
-                classification: '5'
-            }
-        ],
-        app_results: []
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            query: '',
+            apps: [],
+            app_results: []
+        }
     }
 
     componentDidMount() {
@@ -34,7 +21,8 @@ class App extends React.Component {
     }
 
     appSearch = (query) => {
-        if (query.length > 3) {
+        console.log(query)
+        if (query.length > 2) {
             const query_lc = query.toLowerCase()
             const filter = [...this.state.apps.filter(app => app.name.toLowerCase().includes(query_lc))]
             this.setState({app_results: filter})
@@ -42,15 +30,15 @@ class App extends React.Component {
             this.setState({app_results: []})
         }
     }
-    //Above being called twice??
 
     render() {
+        const{app_results} = this.state;
         return (
             <div className="App">
-                <div className="container">
+                <div className="appContainer">
                     <Header/>
                     <SearchBar appSearch={this.appSearch}/>
-                    <Results apps={this.state.app_results} />
+                    <Results apps={app_results} />
                 </div>
             </div>
         );

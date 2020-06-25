@@ -1,5 +1,8 @@
 .App {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -28,10 +31,27 @@
   color: #61dafb;
 }
 
+.appContainer {
+  width: 400px;
+  height: 600px;
+}
+
 .btn {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  border-width: 0;
+  width: 70px;
+  height: 25px;
+  margin-left: 10px;
 }
 
 .btn:hover {
+  background-color: white;
+  color: blueviolet;
+  border-width: 1px;
+  border-color: blueviolet;
 }
 
 @keyframes App-logo-spin {

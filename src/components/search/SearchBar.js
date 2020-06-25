@@ -17,7 +17,7 @@ export class SearchBar extends Component {
 
     render() {
         return (
-            <form onSubmit={this.onSubmit} onChange={this.onChange} style={{display: "flex"}}>
+            <form onSubmit={this.onSubmit} style={{display: "flex"}}>
                 <input
                     type="text"
                     name="query"
@@ -31,7 +31,7 @@ export class SearchBar extends Component {
                     value="Search"
                     className="btn"
                     style={{flex: '1'}}
-                    hidden='true'
+                    hidden={false}
                 />
             </form>
         );
