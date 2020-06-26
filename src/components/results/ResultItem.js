@@ -7,7 +7,7 @@ import IconGrabber from "./IconGrabber";
 const ResultItem = ({appName, appClassification, ind}) => {
     return (
         <div style={resultItemStyle(appClassification)}>
-            <IconGrabber ind={ind}/>
+            <IconGrabber ind={ind} className="appIcon"/>
             <p>{appName+': '+appClassification}</p>
         </div>
     )

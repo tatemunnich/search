@@ -16,7 +16,7 @@ const SearchBar = ({query, onSubmit, onChange}) => {
                 value="Search"
                 className="btn"
                 style={{flex: '1'}}
-                hidden={false}
+                hidden={true}
             />
         </form>
     );
