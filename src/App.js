@@ -21,7 +21,6 @@ class App extends Component {
     }
 
     appSearch = (query) => {
-        console.log(query)
         if (query.length > 2) {
             const query_lc = query.toLowerCase()
             const filter = [...this.state.apps.filter(app => app.name.toLowerCase().includes(query_lc))]
@@ -31,13 +30,25 @@ class App extends Component {
         }
     }
 
+    onSearchSubmit = (e) => {
+        e.preventDefault();
+        this.appSearch(this.state.query);
+    }
+
+    onSearchChange = (e) => {
+        this.setState({'query': e.target.value});
+        this.appSearch(e.target.value);
+    }
+
     render() {
         const{app_results} = this.state;
         return (
             <div className="App">
                 <div className="appContainer">
                     <Header/>
-                    <SearchBar appSearch={this.appSearch}/>
+                    <SearchBar
+                        query={this.query} onSubmit={this.onSearchSubmit} onChange={this.onSearchChange}
+                    />
                     <Results apps={app_results} />
                 </div>
             </div>
