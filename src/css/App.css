@@ -41,10 +41,12 @@
   color: white;
   font-weight: bold;
   border-radius: 25px;
-  border-width: 0;
+  border-width: 1px;
+  border-color: blueviolet;
   width: 70px;
   height: 25px;
   margin-left: 10px;
+  outline: none;
 }
 
 .btn:hover {
