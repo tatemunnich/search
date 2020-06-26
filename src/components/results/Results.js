@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Results = ({apps}) => {
     return apps.map((app) => {
-        return <ResultItem key={app.id} appName={app.name} appClassification={app.classification}/>
+        return <ResultItem key={app.id} appName={app.name} appClassification={app.classification} ind={app.id}/>
     });
 }
 

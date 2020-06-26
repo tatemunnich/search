@@ -5,7 +5,8 @@ const resultItemStyle = (classification) => {
         padding: '10px',
         borderBottom: '1px #ccc dotted',
         textAlign: 'center',
-        color: classification === '99' ? '#f5801f':'#000'
+        color: classification === '99' ? '#f5801f':'#000',
+        display: 'flex'
     }
 };
 

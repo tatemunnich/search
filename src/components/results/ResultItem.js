@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import resultItemStyle from "./Styles";
+import IconGrabber from "./IconGrabber";
 
-const ResultItem = ({appName, appClassification}) => {
+
+const ResultItem = ({appName, appClassification, ind}) => {
     return (
         <div style={resultItemStyle(appClassification)}>
+            <IconGrabber ind={ind}/>
             <p>{appName+': '+appClassification}</p>
         </div>
     )
