@@ -16,14 +16,16 @@ class App extends Component {
     }
 
     componentDidMount() {
-        const data = require('./app_data/data.json')
+        const data = require('./app_data/android_data.json')
         this.setState({apps: data})
     }
 
     appSearch = (query) => {
         if (query.length > 2) {
             const query_lc = query.toLowerCase()
-            const filter = [...this.state.apps.filter(app => app.name.toLowerCase().includes(query_lc))]
+            let filter = [...this.state.apps.filter(app => app.name.toLowerCase().includes(query_lc))]
+            filter.sort((a,b) => (parseInt(a.numreviews) > parseInt(b.numreviews)) ? 1: -1)
+            filter.sort((a,b) => (a.classification > b.classification) ? 1: -1)
             this.setState({app_results: filter})
         } else {
             this.setState({app_results: []})

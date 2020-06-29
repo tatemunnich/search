@@ -1,14 +1,31 @@
 
 const resultItemStyle = (classification) => {
+        let color;
+        switch (classification) {
+            case '1':
+                color = '#d3f2f3';
+                break;
+            case '2':
+                color = '#d3f2f3';
+                break;
+            case '3':
+                color = '#d3f2f3';
+                break;
+            case '4':
+                color = '#e5daf6';
+                break;
+            case '5':
+                color = '#e5daf6';
+                break;
+            case '6':
+                color = '#efdffc';
+                break;
+            default:
+                color = '#f5f5f5';
+        }
+
     return {
-        background: '#f4f4f4',
-        padding: '10px',
-        borderBottom: '1px #ccc dotted',
-        textAlign: 'center',
-        color: classification === '99' ? '#f5801f':'#000',
-        display: 'flex',
-        whiteSpace: 'nowrap',
-        overflow: 'hidden'
+        background: color,
     }
 };
 

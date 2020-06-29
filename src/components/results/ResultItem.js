@@ -2,13 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import resultItemStyle from "./Styles";
 import IconGrabber from "./IconGrabber";
+import ClassIconGrabber from "./ClassIconGrabber";
 
 
 const ResultItem = ({appName, appClassification, ind}) => {
     return (
-        <div style={resultItemStyle(appClassification)}>
+        <div className="appResult" style={resultItemStyle(appClassification)}>
             <IconGrabber ind={ind} className="appIcon"/>
-            <p>{appName+': '+appClassification}</p>
+            <p className="appResultText">{appName}</p>
+            <ClassIconGrabber classification={appClassification} className="classIcon"/>
         </div>
     )
 };
