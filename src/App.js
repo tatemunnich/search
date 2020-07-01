@@ -11,6 +11,7 @@ class App extends Component {
         super(props);
 
         this.state = {
+            button_toggle: true,
             query: '',
             android_apps: [],
             app_results: [],
@@ -59,6 +60,14 @@ class App extends Component {
         this.setState({'query': e.target.value});
         this.appSearch(e.target.value);
     }
+
+    // onButtonClick = (e) => {
+        // if (e.currentTarget.value !== this.state.button_toggle) {
+        //     this.setState({'button_toggle': !this.state.button_toggle})
+        // }
+
+        // console.log(e)
+    // }
 
     render() {
         const{app_results} = this.state;

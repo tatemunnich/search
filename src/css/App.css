@@ -57,7 +57,10 @@
   align-self: center;
 }
 
-.btn {
+.radioButton {
+}
+
+.searchButton {
   background-color: blueviolet;
   color: white;
   font-weight: bold;
@@ -70,7 +73,7 @@
   outline: none;
 }
 
-.btn:hover {
+.searchButton:hover {
   background-color: white;
   color: blueviolet;
   border-width: 1px;

@@ -13,7 +13,7 @@ const SearchBar = ({onSubmit, onChange}) => {
             <input
                 type="submit"
                 value="Search"
-                className="btn"
+                className="searchButton"
                 style={{flex: '1'}}
                 hidden={false}
             />
