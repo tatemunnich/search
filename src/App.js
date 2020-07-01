@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Fuse from "fuse.js";
+import {useSelector} from "react-redux";
+// import 'bootstrap/dist/css/bootstrap.css' // messes up my css
 import './css/App.css';
 
 import Results from "./components/results/Results";

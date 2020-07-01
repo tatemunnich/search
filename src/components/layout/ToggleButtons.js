@@ -1,16 +1,20 @@
 import React from "react";
-import {Button, ToggleButtonGroup} from "react-bootstrap";
-
+import ToggleButton from "react-bootstrap/ToggleButton";
+import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
+import {useDispatch} from "react-redux";
+import {togglePlatform, Platform} from "../../redux/actions"
 
 const ToggleButtons = () => {
+    const dispatch = useDispatch()
+
     return (
-        <ToggleButtonGroup type="checkbox" className="radioButton">
-            <Button value={false}>
-                IOS
-            </Button>
-            <Button value={true}>
+        <ToggleButtonGroup type="radio" name="platform" defaultValue={1}>
+            <ToggleButton onChange={()=>dispatch(togglePlatform(Platform.ANDROID))} value={1} style={{outline: 'none'}}>
                 Android
-            </Button>
+            </ToggleButton>
+            <ToggleButton onChange={()=>dispatch(togglePlatform(Platform.IOS))} value={2}>
+                iOS
+            </ToggleButton>
         </ToggleButtonGroup>
     );
 }
