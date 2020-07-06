@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Fuse from "fuse.js";
-import {useSelector} from "react-redux";
 // import 'bootstrap/dist/css/bootstrap.css' // messes up my css
 import './css/App.css';
 
@@ -13,7 +12,6 @@ class App extends Component {
         super(props);
 
         this.state = {
-            button_toggle: true,
             query: '',
             android_apps: [],
             app_results: [],
@@ -26,21 +24,10 @@ class App extends Component {
 
         this.fuse = new Fuse(data, {
             keys: ['name'],
-            ignoreLocation: true
+            ignoreLocation: true,
+            threshold: 0.3
         });
     }
-
-    // appSearch = (query) => {
-    //     if (query.length > 2) {
-    //         const query_lc = query.toLowerCase()
-    //         let filter = [...this.state.android_apps.filter(app => app.name.toLowerCase().includes(query_lc))]
-    //         filter.sort((a,b) => (parseInt(a.numreviews) > parseInt(b.numreviews)) ? 1: -1)
-    //         filter.sort((a,b) => (a.classification > b.classification) ? 1: -1)
-    //         this.setState({app_results: filter})
-    //     } else {
-    //         this.setState({app_results: []})
-    //     }
-    // }
 
     appSearch = (query) => {
         if (query.length > 0) {
@@ -58,19 +45,6 @@ class App extends Component {
         this.appSearch(e.target[0].value);
     }
 
-    onSearchChange = (e) => {
-        this.setState({'query': e.target.value});
-        this.appSearch(e.target.value);
-    }
-
-    // onButtonClick = (e) => {
-        // if (e.currentTarget.value !== this.state.button_toggle) {
-        //     this.setState({'button_toggle': !this.state.button_toggle})
-        // }
-
-        // console.log(e)
-    // }
-
     render() {
         const{app_results} = this.state;
         return (
@@ -78,7 +52,7 @@ class App extends Component {
                 <div className="appContainer">
                     <Header/>
                     <SearchBar
-                        onSubmit={this.onSearchSubmit} onChange={this.onSearchChange}
+                        onSubmit={this.onSearchSubmit}
                     />
                     <Results apps={app_results} />
                 </div>

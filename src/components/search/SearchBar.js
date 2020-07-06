@@ -1,24 +1,27 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
-const SearchBar = ({onSubmit, onChange}) => {
+
+const SearchBar = ({onSubmit}) => {
     return (
-        <form onSubmit={onSubmit} style={{display: "flex"}}>
+        <form className="searchBar" onSubmit={onSubmit}>
             <input
+                className="searchInput"
                 type="text"
                 name="query"
                 autoComplete="off"
-                style={{flex: "10", padding: '5px'}}
-                // onChange={onChange}
             />
             <input
+                className="searchButton"
                 type="submit"
                 value="Search"
-                className="searchButton"
-                style={{flex: '1'}}
-                hidden={false}
             />
         </form>
     );
+}
+
+SearchBar.propTypes = {
+    onSubmit: PropTypes.func.isRequired
 }
 
 export default SearchBar

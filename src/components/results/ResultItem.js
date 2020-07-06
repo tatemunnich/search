@@ -8,9 +8,9 @@ import ClassIconGrabber from "./ClassIconGrabber";
 const ResultItem = ({appName, appClassification, ind}) => {
     return (
         <div className="appResult" style={resultItemStyle(appClassification)}>
-            <IconGrabber ind={ind} className="appIcon"/>
+            <IconGrabber ind={ind}/>
             <p className="appResultText">{appName}</p>
-            <ClassIconGrabber classification={appClassification} className="classIcon"/>
+            <ClassIconGrabber classification={appClassification}/>
         </div>
     )
 };

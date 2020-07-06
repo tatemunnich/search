@@ -1,11 +1,18 @@
 import React from "react";
-import ResultItem from "./ResultItem";
 import PropTypes from 'prop-types';
+import ResultItem from "./ResultItem";
+
 
 const Results = ({apps}) => {
-    return apps.map((app) => {
-        return <ResultItem key={app.id} appName={app.name} appClassification={app.classification} ind={app.id}/>
-    });
+    return (<div className="appResults">
+                {apps.map((app) => {
+                    return (<ResultItem
+                                key={app.id}
+                                appName={app.name} ind={app.id}
+                                appClassification={app.classification}
+                            />)
+                })}
+            </div>);
 }
 
 Results.propTypes = {
