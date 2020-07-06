@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import Fuse from "fuse.js";
 // import 'bootstrap/dist/css/bootstrap.css' // messes up my css
 import './css/App.css';
 
 import Results from "./components/results/Results";
 import Header from "./components/layout/Header";
 import SearchBar from "./components/search/SearchBar";
+import createFuse from "./components/search/searching";
 
 class App extends Component {
     constructor(props) {
@@ -22,18 +22,13 @@ class App extends Component {
         const data = require('./app_data/android_data.json')
         this.setState({android_apps: data})
 
-        this.fuse = new Fuse(data, {
-            keys: ['name'],
-            ignoreLocation: true,
-            threshold: 0.3
-        });
+        this.fuse = createFuse(data)
     }
 
     appSearch = (query) => {
         if (query.length > 0) {
-            const result = this.fuse.search(query, {limit:25})
+            const result = this.fuse.search(query, {limit: 25})
             this.setState({app_results: result.map(res => res.item)})
-            // console.log(result.map(res => res.item))
         } else {
             this.setState({app_results: []})
         }
