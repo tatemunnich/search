@@ -1,2 +1,2 @@
 export const TOGGLE_PLATFORM = 'TOGGLE_PLATFORM'
-export const SEARCH_APPS = 'SEARCH_APPS'
+export const SET_RESULTS = 'SET_RESULTS'

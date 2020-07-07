@@ -1,15 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
-import {searchApps} from "../../actions";
-import PropTypes from 'prop-types';
+import {setResults} from "../../actions";
+import {appSearch} from "./FuseInstances";
 
 
-const SearchBar = ({onSubmit, dispatch}) => {
+const SearchBar = ({platform, dispatch}) => {
     return (
         <form className="searchBar" onSubmit={e => {
             e.preventDefault()
-            dispatch(searchApps(e.target[0].value))
-            onSubmit(e)
+            const results = appSearch(e.target[0].value, platform)
+            dispatch(setResults(results))
         }}>
             <input
                 className="searchInput"
@@ -26,8 +26,10 @@ const SearchBar = ({onSubmit, dispatch}) => {
     );
 }
 
-SearchBar.propTypes = {
-    onSubmit: PropTypes.func.isRequired
+const mapStateToProps = (state) => {
+    return {
+        platform: state.platform
+    }
 }
 
-export default connect()(SearchBar)
+export default connect(mapStateToProps)(SearchBar)

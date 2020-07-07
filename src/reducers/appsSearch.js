@@ -1,9 +1,9 @@
-import {SEARCH_APPS} from "../actions/types";
+import {SET_RESULTS} from "../actions/types";
 
 
 const appsSearch = (state = [], action) => {
     switch (action.type) {
-        case SEARCH_APPS:
+        case SET_RESULTS:
             return action.payload
         default:
             return state

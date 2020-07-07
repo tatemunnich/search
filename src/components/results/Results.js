@@ -1,4 +1,5 @@
 import React from "react";
+import {connect} from "react-redux"
 import PropTypes from 'prop-types';
 import ResultItem from "./ResultItem";
 
@@ -19,4 +20,10 @@ Results.propTypes = {
     apps: PropTypes.array.isRequired
 }
 
-export default Results;
+const mapStateToProps = (state) => {
+    return {
+        apps: state.results
+    }
+}
+
+export default connect(mapStateToProps)(Results);
