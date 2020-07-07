@@ -1,6 +1,7 @@
 import {SEARCH_APPS} from "../actions/types";
 
-function appsSearch(state = [], action) {
+
+const appsSearch = (state = [], action) => {
     switch (action.type) {
         case SEARCH_APPS:
             return action.payload

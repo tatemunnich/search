@@ -3,6 +3,7 @@ import {
     SEARCH_APPS
 } from "./types";
 
+
 export function togglePlatform(payload) {
     return {type: TOGGLE_PLATFORM, payload}
 }

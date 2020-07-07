@@ -1,7 +1,8 @@
 import {TOGGLE_PLATFORM} from "../actions/types";
 import {Platform} from "./index";
 
-function platformToggle(state = Platform.ANDROID, action) {
+
+const platformToggle = (state = Platform.ANDROID, action) => {
     switch (action.type) {
         case TOGGLE_PLATFORM:
             return action.payload

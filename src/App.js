@@ -7,6 +7,7 @@ import Header from "./components/layout/Header";
 import SearchBar from "./components/search/SearchBar";
 import createFuse from "./components/search/searching";
 
+
 class App extends Component {
     constructor(props) {
         super(props);
