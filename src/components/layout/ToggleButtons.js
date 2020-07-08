@@ -1,36 +1,42 @@
 import React from "react";
 import ToggleButton from "react-bootstrap/ToggleButton";
-import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
-import {useDispatch} from "react-redux";
+import {connect} from "react-redux";
 import {setResults, togglePlatform} from "../../actions"
 import {Platform} from "../../reducers";
 
-const ToggleButtons = () => {
-    const dispatch = useDispatch()
+const ToggleButtons = ({platform, dispatch}) => {
 
     return (
-        <ToggleButtonGroup type="radio" name="platform" defaultValue={1}>
-            <ToggleButton className="radioButton"
+        <div>
+            <ToggleButton className="radioButton" type="radio"
                 onChange={()=>{
                     dispatch(togglePlatform(Platform.ANDROID))
                     dispatch(setResults([]))
                 }}
                 value={1}
+                checked={platform===Platform.ANDROID}
             >
                 Android
             </ToggleButton>
 
-            <ToggleButton className="radioButton"
+            <ToggleButton className="radioButton" type="radio"
                 onChange={()=>{
                     dispatch(togglePlatform(Platform.IOS))
                     dispatch(setResults([]))
                 }}
                 value={2}
+                checked={platform===Platform.IOS}
             >
                 iOS
             </ToggleButton>
-        </ToggleButtonGroup>
+        </div>
     );
 }
 
-export default ToggleButtons
+const mapStateToProps = state => {
+    return {
+        platform: state.platform
+    }
+}
+
+export default connect(mapStateToProps, undefined)(ToggleButtons)
