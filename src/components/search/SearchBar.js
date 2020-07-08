@@ -4,13 +4,9 @@ import {setResults} from "../../actions";
 import {appSearch} from "./FuseInstances";
 
 
-const SearchBar = ({platform, dispatch}) => {
+const SearchBar = ({platform, onSearchSubmit}) => {
     return (
-        <form className="searchBar" onSubmit={e => {
-            e.preventDefault()
-            const results = appSearch(e.target[0].value, platform)
-            dispatch(setResults(results))
-        }}>
+        <form className="searchBar" onSubmit={e => onSearchSubmit(e, platform)}>
             <input
                 className="searchInput"
                 type="text"
@@ -32,4 +28,14 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps)(SearchBar)
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onSearchSubmit: (e, platform) => {
+            e.preventDefault()
+            const results = appSearch(e.target[0].value, platform)
+            dispatch(setResults(results))
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(SearchBar)

@@ -4,15 +4,12 @@ import {connect} from "react-redux";
 import {setResults, togglePlatform} from "../../actions"
 import {Platform} from "../../reducers";
 
-const ToggleButtons = ({platform, dispatch}) => {
+const ToggleButtons = ({platform, onButtonChange}) => {
 
     return (
-        <div>
+        <div className="radioButtons">
             <ToggleButton className="radioButton" type="radio"
-                onChange={()=>{
-                    dispatch(togglePlatform(Platform.ANDROID))
-                    dispatch(setResults([]))
-                }}
+                onChange={()=>onButtonChange(Platform.ANDROID)}
                 value={1}
                 checked={platform===Platform.ANDROID}
             >
@@ -20,10 +17,7 @@ const ToggleButtons = ({platform, dispatch}) => {
             </ToggleButton>
 
             <ToggleButton className="radioButton" type="radio"
-                onChange={()=>{
-                    dispatch(togglePlatform(Platform.IOS))
-                    dispatch(setResults([]))
-                }}
+                onChange={()=>onButtonChange(Platform.IOS)}
                 value={2}
                 checked={platform===Platform.IOS}
             >
@@ -39,4 +33,13 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps, undefined)(ToggleButtons)
+const mapDispatchToProps = dispatch => {
+    return {
+        onButtonChange: (platform) => {
+            dispatch(togglePlatform(platform))
+            dispatch(setResults([]))
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ToggleButtons)

@@ -5,21 +5,19 @@ import './css/App.css';
 import Results from "./components/results/Results";
 import Header from "./components/layout/Header";
 import SearchBar from "./components/search/SearchBar";
+import ToggleButtons from "./components/layout/ToggleButtons";
 
 
 class App extends Component {
-
-    componentDidMount() {
-
-    }
 
     render() {
         return (
             <div className="App">
                 <div className="appContainer">
-                    <Header/>
+                    <Header />
+                    <ToggleButtons />
                     <SearchBar />
-                    <Results apps={[]} />
+                    <Results />
                 </div>
             </div>
         );
