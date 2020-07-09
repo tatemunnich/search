@@ -5,13 +5,15 @@ import IconGrabber from "./IconGrabber";
 import ClassIconGrabber from "./ClassIconGrabber";
 
 
-const ResultItem = ({appName, appClassification, ind}) => {
+const ResultItem = ({appName, appClassification, ind, url}) => {
     return (
-        <div className="appResult" style={resultItemStyle(appClassification)}>
-            <IconGrabber ind={ind}/>
-            <p className="appResultText">{appName}</p>
-            <ClassIconGrabber classification={appClassification}/>
-        </div>
+        <a href={url} target="_blank" rel="noopener noreferrer" style={{textDecoration: "none"}}>
+            <div className="appResult" style={resultItemStyle(appClassification)}>
+                <IconGrabber ind={ind}/>
+                <p className="appResultText">{appName}</p>
+                <ClassIconGrabber classification={appClassification}/>
+            </div>
+        </a>
     )
 };
 

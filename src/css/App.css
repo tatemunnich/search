@@ -13,7 +13,6 @@
 .header {
   padding: 20px;
   background: #ffffff;
-  color: #8a2ce2;
 }
 
 .radioButtons {
@@ -26,6 +25,7 @@
 
 .searchBar {
   display: flex;
+  /*margin-bottom: 30px;*/
 }
 
 .searchInput {
@@ -52,6 +52,7 @@
   color: blueviolet;
   border-width: 1px;
   border-color: blueviolet;
+  cursor: pointer;
 }
 
 .appResult {

@@ -8695,13 +8695,6 @@
     },
     {
         "classification": "99",
-        "id": "367623543",
-        "name": "Fox News: Live Breaking News",
-        "short_name": "foxnewslivebreakingnews",
-        "url": "https://apps.apple.com/us/app/fox-news-live-breaking-news/id367623543?ign-mpt=uo%3D4"
-    },
-    {
-        "classification": "99",
         "id": "1037595083",
         "name": "StepsApp Pedometer",
         "short_name": "stepsapp",

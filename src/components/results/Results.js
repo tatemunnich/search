@@ -11,6 +11,7 @@ const Results = ({apps}) => {
                                 key={app.id}
                                 appName={app.name} ind={app.id}
                                 appClassification={app.classification}
+                                url={app.url}
                             />)
                 })}
             </div>);
