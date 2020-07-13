@@ -14,9 +14,14 @@ const SearchBar = ({platform, onSearchSubmit}) => {
                 autoComplete="off"
             />
             <input
+                className="clearButton"
+                type="reset"
+                value="X"
+            />
+            <input
                 className="searchButton"
                 type="submit"
-                value="Search"
+                value="S"
             />
         </form>
     );
