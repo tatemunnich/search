@@ -1,5 +1,6 @@
 import platformToggle from "./platformToggle";
-import appsSearch from "./appsSearch";
+import setResults from "./setResults";
+import setQuery from "./setQuery";
 
 
 export const Platform = {
@@ -10,8 +11,8 @@ export const Platform = {
 const rootReducer = (state = {}, action) => {
     return {
         platform: platformToggle(state.platform, action),
-        results: appsSearch(state.results, action),
-        // p: createFuse([])
+        results: setResults(state.results, action),
+        query: setQuery(state.query, action)
     }
 }
 

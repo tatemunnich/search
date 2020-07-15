@@ -1,7 +1,7 @@
 import {SET_RESULTS} from "../actions/types";
 
 
-const appsSearch = (state = [], action) => {
+const setResults = (state = [], action) => {
     switch (action.type) {
         case SET_RESULTS:
             return action.payload
@@ -10,4 +10,4 @@ const appsSearch = (state = [], action) => {
     }
 }
 
-export default appsSearch
+export default setResults
