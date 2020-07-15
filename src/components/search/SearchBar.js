@@ -1,13 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
-import {setResults, setQuery, toggleSubmitted} from "../../actions";
+import {setResults, setQuery, toggleSubmitted, toggleCleared} from "../../actions";
 import {appSearch} from "./FuseInstances";
 import {searchButtonStyle} from "./Styles"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearch, faTimes} from "@fortawesome/free-solid-svg-icons";
 
 
-const SearchBar = ({query, platform, submitted, onSearchSubmit, onSearchChange, clearSearch, rref}) => {
+const SearchBar = ({query, platform, submitted, cleared, onSearchSubmit, onSearchChange, clearSearch, refFunction}) => {
     return (
         <form className="searchBar" onSubmit={e => onSearchSubmit(e, platform)} >
 
@@ -20,7 +20,7 @@ const SearchBar = ({query, platform, submitted, onSearchSubmit, onSearchChange, 
                 value={query}
                 autoFocus={true}
                 // ref={(input) => {input && input.focus()}}
-                ref={input => rref(input, submitted)}
+                ref={input => refFunction(input, submitted, cleared)}
             />
 
             { query === ""
@@ -42,7 +42,8 @@ const mapStateToProps = (state) => {
     return {
         platform: state.platform,
         query: state.query,
-        submitted: state.submitted
+        submitted: state.submitted,
+        cleared: state.cleared
     }
 }
 
@@ -60,11 +61,13 @@ const mapDispatchToProps = (dispatch) => {
         },
 
         clearSearch: () => {
-            dispatch(setQuery(""))
+            dispatch(setQuery(""));
+            dispatch(toggleCleared(true))
         },
 
-        rref: (input, submitted) => {
-            input && submitted && dispatch(toggleSubmitted(false)) && input.blur()
+        refFunction: (input, submitted, cleared) => {
+            input && submitted && dispatch(toggleSubmitted(false)) && input.blur();
+            input && cleared && dispatch(toggleCleared(false)) && input.focus();
         }
     }
 }

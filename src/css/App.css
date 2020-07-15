@@ -84,6 +84,10 @@
   color: #777777
 }
 
+.clearButton:active {
+  color: #de5833;
+}
+
 .searchButton {
   box-sizing: content-box;
   speak: none;
