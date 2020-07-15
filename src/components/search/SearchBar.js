@@ -18,6 +18,8 @@ const SearchBar = ({query, platform, onSearchSubmit, onSearchChange, clearSearch
                 name="query"
                 autoComplete="off"
                 value={query}
+                autoFocus={true}
+                ref={(input) => {input && input.focus()}}
             />
 
             { query === ""
@@ -51,7 +53,7 @@ const mapDispatchToProps = (dispatch) => {
         },
 
         onSearchChange: (e) => {
-                dispatch(setQuery(e.target.value))
+            dispatch(setQuery(e.target.value))
         },
 
         clearSearch: () => {
