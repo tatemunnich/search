@@ -1,13 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
-import {setResults, setQuery, toggleSubmitted, toggleCleared} from "../../actions";
+import {setResults, setQuery, toggleSubmitted, toggleCleared, toggleToggled} from "../../actions";
 import {appSearch} from "./FuseInstances";
 import {searchButtonStyle} from "./Styles"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearch, faTimes} from "@fortawesome/free-solid-svg-icons";
 
 
-const SearchBar = ({query, platform, submitted, cleared, onSearchSubmit, onSearchChange, clearSearch, refFunction}) => {
+const SearchBar = ({query, platform, submitted, cleared, toggled, onSearchSubmit, onSearchChange, clearSearch, refFunction}) => {
     return (
         <form className="searchBar" onSubmit={e => onSearchSubmit(e, platform)} >
 
@@ -19,8 +19,7 @@ const SearchBar = ({query, platform, submitted, cleared, onSearchSubmit, onSearc
                 autoComplete="off"
                 value={query}
                 autoFocus={true}
-                // ref={(input) => {input && input.focus()}}
-                ref={input => refFunction(input, submitted, cleared)}
+                ref={input => refFunction(input, submitted, cleared, toggled)}
             />
 
             { query === ""
@@ -43,7 +42,8 @@ const mapStateToProps = (state) => {
         platform: state.platform,
         query: state.query,
         submitted: state.submitted,
-        cleared: state.cleared
+        cleared: state.cleared,
+        toggled: state.toggled
     }
 }
 
@@ -53,7 +53,7 @@ const mapDispatchToProps = (dispatch) => {
             e.preventDefault()
             const results = appSearch(e.target[0].value, platform)
             dispatch(setResults(results))
-            dispatch(toggleSubmitted(true))
+            dispatch(toggleSubmitted())
         },
 
         onSearchChange: (e) => {
@@ -62,12 +62,13 @@ const mapDispatchToProps = (dispatch) => {
 
         clearSearch: () => {
             dispatch(setQuery(""));
-            dispatch(toggleCleared(true))
+            dispatch(toggleCleared())
         },
 
-        refFunction: (input, submitted, cleared) => {
-            input && submitted && dispatch(toggleSubmitted(false)) && input.blur();
-            input && cleared && dispatch(toggleCleared(false)) && input.focus();
+        refFunction: (input, submitted, cleared, toggled) => {
+            input && submitted && dispatch(toggleSubmitted()) && input.blur();
+            input && cleared && dispatch(toggleCleared()) && input.focus();
+            input && toggled && dispatch(toggleToggled()) && input.focus();
         }
     }
 }

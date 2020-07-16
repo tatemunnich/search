@@ -1,7 +1,7 @@
 import React from "react";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import {connect} from "react-redux";
-import {setResults, togglePlatform} from "../../actions"
+import {setResults, togglePlatform, toggleToggled} from "../../actions"
 import {Platform} from "../../reducers";
 
 const ToggleButtons = ({platform, onButtonChange}) => {
@@ -38,6 +38,7 @@ const mapDispatchToProps = dispatch => {
         onButtonChange: (platform) => {
             dispatch(togglePlatform(platform))
             dispatch(setResults([]))
+            dispatch(toggleToggled())
         }
     }
 }

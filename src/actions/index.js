@@ -1,6 +1,10 @@
 import {
     TOGGLE_PLATFORM,
-    SET_RESULTS, SET_QUERY, TOGGLE_SUBMITTED, TOGGLE_CLEARED
+    SET_RESULTS,
+    SET_QUERY,
+    TOGGLE_SUBMITTED,
+    TOGGLE_CLEARED,
+    TOGGLE_TOGGLED
 } from "./types";
 
 
@@ -22,4 +26,8 @@ export function toggleSubmitted(payload) {
 
 export function toggleCleared(payload) {
     return {type: TOGGLE_CLEARED, payload}
+}
+
+export function toggleToggled(payload) {
+    return {type: TOGGLE_TOGGLED}
 }
