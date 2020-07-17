@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-// import 'bootstrap/dist/css/bootstrap.css' // messes up my css
 import './css/App.css';
-
 import Results from "./components/results/Results";
 import Header from "./components/layout/Header";
 import SearchBar from "./components/search/SearchBar";
