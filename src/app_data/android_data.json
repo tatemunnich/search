@@ -11616,17 +11616,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.nextwave.wcclite"
     },
     {
-        "category": "['SHOPPING']",
-        "classification": "99",
-        "developer": "Amazon Mobile LLC",
-        "id": 1057,
-        "name": "Amazon Shopping - Search, Find, Ship, and Save",
-        "numreviews": "1392089",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping"
-    },
-    {
         "category": "['LIFESTYLE']",
         "classification": "99",
         "developer": "Guxiu Design",
@@ -23122,17 +23111,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.idz.timetelling"
     },
     {
-        "category": "['GAME_PUZZLE']",
-        "classification": "99",
-        "developer": "SuperSwell",
-        "id": 2103,
-        "name": "Find the differences 750 + levels",
-        "numreviews": "90168",
-        "price": "0",
-        "rating": "4.7",
-        "url": "https://play.google.com/store/apps/details?id=com.superswell.findthedifference"
-    },
-    {
         "category": "['TOOLS']",
         "classification": "99",
         "developer": "Teamforce",
@@ -23815,17 +23793,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.zenstudios.ZenPinball"
     },
     {
-        "category": "['MAPS_AND_NAVIGATION']",
-        "classification": "99",
-        "developer": "Navionics Srl",
-        "id": 2166,
-        "name": "Boating HD Marine & Lakes",
-        "numreviews": "19761",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=it.navionics.singleAppMarineLakesHD"
-    },
-    {
         "category": "['EDUCATION']",
         "classification": "99",
         "developer": "JUSt Imagine Studios",
@@ -23960,17 +23927,6 @@
     {
         "category": "['GAME_ACTION']",
         "classification": "99",
-        "developer": "Nintendo Co., Ltd.",
-        "id": 2179,
-        "name": "Mario Kart Tour",
-        "numreviews": "1729619",
-        "price": "0",
-        "rating": "4",
-        "url": "https://play.google.com/store/apps/details?id=com.nintendo.zaka&hl=en"
-    },
-    {
-        "category": "['GAME_ACTION']",
-        "classification": "99",
         "developer": "VOODOO",
         "id": 2180,
         "name": "aquapark.io",
@@ -24004,17 +23960,6 @@
     {
         "category": "['GAME_ACTION']",
         "classification": "99",
-        "developer": "VOODOO",
-        "id": 2183,
-        "name": "Helix Jump",
-        "numreviews": "4211311",
-        "price": "0",
-        "rating": "4",
-        "url": "https://play.google.com/store/apps/details?id=com.h8games.helixjump&hl=en"
-    },
-    {
-        "category": "['GAME_ACTION']",
-        "classification": "99",
         "developer": "Gismart",
         "id": 2184,
         "name": "Cool Goal! \u2014 Soccer game",
@@ -24033,28 +23978,6 @@
         "price": "2.99",
         "rating": "4.6",
         "url": "https://play.google.com/store/apps/details?id=com.devolver.downwell_rerelease&hl=en"
-    },
-    {
-        "category": "['GAME_ACTION']",
-        "classification": "99",
-        "developer": "Pixel Gun 3D",
-        "id": 2186,
-        "name": "Pixel Gun 3D: FPS Shooter & Battle Royale",
-        "numreviews": "5435801",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.pixel.gun3d&hl=en"
-    },
-    {
-        "category": "['GAME_ACTION']",
-        "classification": "99",
-        "developer": "Outfit7 Limited",
-        "id": 2187,
-        "name": "Swamp Attack",
-        "numreviews": "2374994",
-        "price": "0",
-        "rating": "4.5",
-        "url": "https://play.google.com/store/apps/details?id=com.outfit7.movingeye.swampattack&hl=en"
     },
     {
         "category": "['GAME_ACTION']",
@@ -24176,17 +24099,6 @@
         "price": "0",
         "rating": "4.2",
         "url": "https://play.google.com/store/apps/details?id=com.byv.TheCatapult&hl=en"
-    },
-    {
-        "category": "['GAME_ACTION']",
-        "classification": "99",
-        "developer": "707 INTERACTIVE",
-        "id": 2199,
-        "name": "Sniper Honor: Fun FPS 3D Gun Shooting Game 2020",
-        "numreviews": "50793",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=sniper.honor.real3d.shooter.assassin.free.android&hl=en"
     },
     {
         "category": "['GAME_ACTION']",
@@ -24367,17 +24279,6 @@
     {
         "category": "['GAME_ARCADE']",
         "classification": "99",
-        "developer": "Storm8 Studios",
-        "id": 2216,
-        "name": "Hungry Babies Mania",
-        "numreviews": "25514",
-        "price": "0",
-        "rating": "3.9",
-        "url": "https://play.google.com/store/apps/details?id=com.storm8studios.hungrybabies&hl=en"
-    },
-    {
-        "category": "['GAME_ARCADE']",
-        "classification": "99",
         "developer": "VOODOO",
         "id": 2217,
         "name": "Flappy Dunk",
@@ -24554,17 +24455,6 @@
     {
         "category": "['GAME_ARCADE']",
         "classification": "99",
-        "developer": "VOODOO",
-        "id": 2233,
-        "name": "Paper.io 2",
-        "numreviews": "1657889",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=io.voodoo.paper2&hl=en"
-    },
-    {
-        "category": "['GAME_ARCADE']",
-        "classification": "99",
         "developer": "Simple Machine",
         "id": 2234,
         "name": "Pop the Lock",
@@ -24704,17 +24594,6 @@
         "price": "0",
         "rating": "4.3",
         "url": "https://play.google.com/store/apps/details?id=com.topchopgames.skyroller&hl=en"
-    },
-    {
-        "category": "['GAME_ARCADE']",
-        "classification": "99",
-        "developer": "BANDAI NAMCO Entertainment Europe",
-        "id": 2247,
-        "name": "PAC-MAN 256 - Endless Maze",
-        "numreviews": "361850",
-        "price": "0",
-        "rating": "4.5",
-        "url": "https://play.google.com/store/apps/details?id=eu.bandainamcoent.pacman256&hl=en"
     },
     {
         "category": "['GAME_ARCADE']",
@@ -24971,17 +24850,6 @@
     },
     {
         "category": "['BOOKS_AND_REFERENCE']",
-        "classification": "5",
-        "developer": "Tecarta, Inc.",
-        "id": 2271,
-        "name": "Tecarta Bible",
-        "numreviews": "35559",
-        "price": "0",
-        "rating": "4.8",
-        "url": "https://play.google.com/store/apps/details?id=com.tecarta.TecartaBible&hl=en"
-    },
-    {
-        "category": "['BOOKS_AND_REFERENCE']",
         "classification": "2",
         "developer": "Audible, Inc",
         "id": 2272,
@@ -25113,17 +24981,6 @@
         "url": "https://play.google.com/store/apps/details?id=com.lumoslabs.sense&hl=en"
     },
     {
-        "category": "['NEWS_AND_MAGAZINES']",
-        "classification": "1",
-        "developer": "Eric Mill",
-        "id": 2284,
-        "name": "Congress",
-        "numreviews": "9833",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.sunlightlabs.android.congress&hl=en_US"
-    },
-    {
         "category": "['HEALTH_AND_FITNESS']",
         "classification": "4",
         "developer": "Apps Incubator",
@@ -25133,17 +24990,6 @@
         "price": "0",
         "rating": "",
         "url": "https://play.google.com/store/apps/details?id=com.appsincubator.anxietyquizlet&hl=en_US"
-    },
-    {
-        "category": "['BOOKS_AND_REFERENCE']",
-        "classification": "2",
-        "developer": "Scribd, Inc.",
-        "id": 2286,
-        "name": "Scribd: Audiobooks & ebooks",
-        "numreviews": "503955",
-        "price": "0",
-        "rating": "4.5",
-        "url": "https://play.google.com/store/apps/details?id=com.scribd.app.reader0&hl=en"
     },
     {
         "category": "['BOOKS_AND_REFERENCE']",
@@ -25650,17 +25496,6 @@
         "price": "0",
         "rating": "4.4",
         "url": "https://play.google.com/store/apps/details?id=com.joinhandshake.student&hl=en"
-    },
-    {
-        "category": "['BUSINESS']",
-        "classification": "99",
-        "developer": "KitApps, Inc.",
-        "id": 2333,
-        "name": "Attendify",
-        "numreviews": "1920",
-        "price": "0",
-        "rating": "4.8",
-        "url": "https://play.google.com/store/apps/details?id=com.attendify.app&hl=en"
     },
     {
         "category": "['BUSINESS']",
@@ -26435,39 +26270,6 @@
     {
         "category": "['GAME_CASUAL']",
         "classification": "99",
-        "developer": "King",
-        "id": 2404,
-        "name": "Candy Crush Saga",
-        "numreviews": "28792469",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=en"
-    },
-    {
-        "category": "['GAME_CASUAL']",
-        "classification": "99",
-        "developer": "Metro Trains",
-        "id": 2405,
-        "name": "Dumb Ways to Die 2: The Games",
-        "numreviews": "1762408",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=air.au.com.metro.DumbWaysToDie2&hl=en"
-    },
-    {
-        "category": "['GAME_CASUAL']",
-        "classification": "99",
-        "developer": "VOODOO",
-        "id": 2406,
-        "name": "Roller Splat!",
-        "numreviews": "79743",
-        "price": "0",
-        "rating": "3.2",
-        "url": "https://play.google.com/store/apps/details?id=com.neonplay.casualrollersplat2&hl=en"
-    },
-    {
-        "category": "['GAME_CASUAL']",
-        "classification": "99",
         "developer": "Playrix",
         "id": 2407,
         "name": "Township",
@@ -26486,17 +26288,6 @@
         "price": "0",
         "rating": "4.6",
         "url": "https://play.google.com/store/apps/details?id=com.sirnic.atomas&hl=en"
-    },
-    {
-        "category": "['GAME_CASUAL']",
-        "classification": "99",
-        "developer": "Outfit7 Limited",
-        "id": 2409,
-        "name": "My Talking Angela",
-        "numreviews": "11959273",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangelafree&hl=en"
     },
     {
         "category": "['GAME_CASUAL']",
@@ -26710,17 +26501,6 @@
     {
         "category": "['GAME_CASUAL']",
         "classification": "99",
-        "developer": "Zynga",
-        "id": 2429,
-        "name": "FarmVille 2: Country Escape",
-        "numreviews": "2805716",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.zynga.FarmVille2CountryEscape&hl=en"
-    },
-    {
-        "category": "['GAME_CASUAL']",
-        "classification": "99",
         "developer": "Zakeh",
         "id": 2430,
         "name": "Pou",
@@ -26739,17 +26519,6 @@
         "price": "0",
         "rating": "4.7",
         "url": "https://play.google.com/store/apps/details?id=com.Seriously.BestFiends&hl=en"
-    },
-    {
-        "category": "['GAME_CASUAL']",
-        "classification": "99",
-        "developer": "Rollic Games",
-        "id": 2432,
-        "name": "Zero21 Solitaire",
-        "numreviews": "12470",
-        "price": "0",
-        "rating": "3.5",
-        "url": "https://play.google.com/store/apps/details?id=com.duellogames.Zero21&hl=en"
     },
     {
         "category": "['GAME_CASUAL']",
@@ -27205,17 +26974,6 @@
     {
         "category": "['COMMUNICATION']",
         "classification": "99",
-        "developer": "1&1 Mail & Media Inc",
-        "id": 2474,
-        "name": "mail.com mail",
-        "numreviews": "60710",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.mail.mobile.android.mail&hl=en_US"
-    },
-    {
-        "category": "['COMMUNICATION']",
-        "classification": "99",
         "developer": "Mozilla",
         "id": 2475,
         "name": "Firefox Focus: The privacy browser",
@@ -27424,17 +27182,6 @@
     },
     {
         "category": "['COMMUNICATION']",
-        "classification": "6",
-        "developer": "Simpler Apps Inc",
-        "id": 2494,
-        "name": "Dialer, Phone, Call Block & Contacts by Simpler",
-        "numreviews": "98386",
-        "price": "0",
-        "rating": "4.5",
-        "url": "https://play.google.com/store/apps/details?id=com.simpler.dialer&hl=en"
-    },
-    {
-        "category": "['COMMUNICATION']",
         "classification": "99",
         "developer": "Kechup Animation Studios",
         "id": 2495,
@@ -27600,17 +27347,6 @@
     },
     {
         "category": "['COMMUNICATION']",
-        "classification": "6",
-        "developer": "Skype",
-        "id": 2510,
-        "name": "Skype Lite - Free Video Call & Chat",
-        "numreviews": "0",
-        "price": "0",
-        "rating": "",
-        "url": "https://play.google.com/store/apps/details?id=com.skype.m2&hl=en"
-    },
-    {
-        "category": "['COMMUNICATION']",
         "classification": "99",
         "developer": "RSA Security",
         "id": 2511,
@@ -27765,17 +27501,6 @@
     },
     {
         "category": "['EDUCATION']",
-        "classification": "1",
-        "developer": "Pearson Education, Inc.",
-        "id": 2525,
-        "name": "Pearson eText",
-        "numreviews": "2506",
-        "price": "0",
-        "rating": "2.8",
-        "url": "https://play.google.com/store/apps/details?id=com.pearsoned.etext2he&hl=en"
-    },
-    {
-        "category": "['EDUCATION']",
         "classification": "3",
         "developer": "Babbel",
         "id": 2526,
@@ -27842,17 +27567,6 @@
     },
     {
         "category": "['EDUCATION']",
-        "classification": "1",
-        "developer": "Terminal Eleven",
-        "id": 2532,
-        "name": "SkyView\u00ae Lite",
-        "numreviews": "34710",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.t11.skyviewfree&hl=en"
-    },
-    {
-        "category": "['EDUCATION']",
         "classification": "2",
         "developer": "Vital Source Technologies",
         "id": 2533,
@@ -27861,17 +27575,6 @@
         "price": "0",
         "rating": "3.7",
         "url": "https://play.google.com/store/apps/details?id=com.vitalsource.bookshelf&hl=en"
-    },
-    {
-        "category": "['EDUCATION']",
-        "classification": "99",
-        "developer": "Remind101",
-        "id": 2534,
-        "name": "Remind: School Communication",
-        "numreviews": "190380",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.remind101&hl=en"
     },
     {
         "category": "['EDUCATION']",
@@ -28194,17 +27897,6 @@
     },
     {
         "category": "['EDUCATION']",
-        "classification": "99",
-        "developer": "D2L Corporation",
-        "id": 2564,
-        "name": "Brightspace Pulse",
-        "numreviews": "5793",
-        "price": "0",
-        "rating": "4",
-        "url": "https://play.google.com/store/apps/details?id=com.d2l.brightspace.student.android&hl=en_US"
-    },
-    {
-        "category": "['EDUCATION']",
         "classification": "5",
         "developer": "Subsplash Inc",
         "id": 2565,
@@ -28348,17 +28040,6 @@
     },
     {
         "category": "['EDUCATION']",
-        "classification": "99",
-        "developer": "PowerSchool Group LLC",
-        "id": 2578,
-        "name": "eSchoolPLUS Family",
-        "numreviews": "674",
-        "price": "0",
-        "rating": "2.3",
-        "url": "https://play.google.com/store/apps/details?id=com.sungardps.plus360home&hl=en"
-    },
-    {
-        "category": "['EDUCATION']",
         "classification": "1",
         "developer": "Khan Academy",
         "id": 2579,
@@ -28455,17 +28136,6 @@
         "price": "0",
         "rating": "3.7",
         "url": "https://play.google.com/store/apps/details?id=air.thix.sciencesense.beaker&hl=en"
-    },
-    {
-        "category": "['EDUCATION']",
-        "classification": "1",
-        "developer": "AnkiDroid Open Source Team",
-        "id": 2588,
-        "name": "AnkiDroid Flashcards",
-        "numreviews": "46502",
-        "price": "0",
-        "rating": "4.5",
-        "url": "https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en"
     },
     {
         "category": "['EDUCATION']",
@@ -29427,17 +29097,6 @@
     {
         "category": "['ENTERTAINMENT']",
         "classification": "99",
-        "developer": "Facebook Technologies, LLC",
-        "id": 2676,
-        "name": "Oculus",
-        "numreviews": "8592",
-        "price": "0",
-        "rating": "3.8",
-        "url": "https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=en"
-    },
-    {
-        "category": "['ENTERTAINMENT']",
-        "classification": "99",
         "developer": "MTV",
         "id": 2677,
         "name": "MTV",
@@ -29768,17 +29427,6 @@
     {
         "category": "['FINANCE']",
         "classification": "99",
-        "developer": "PayPal Mobile",
-        "id": 2707,
-        "name": "PayPal Mobile Cash: Send and Request Money Fast",
-        "numreviews": "1400998",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile&hl=en"
-    },
-    {
-        "category": "['FINANCE']",
-        "classification": "99",
         "developer": "Intuit Inc",
         "id": 2708,
         "name": "Mint: Budget, Bills, & Finance Tracker",
@@ -29885,17 +29533,6 @@
         "price": "0",
         "rating": "4.7",
         "url": "https://play.google.com/store/apps/details?id=com.konylabs.capitalone&hl=en"
-    },
-    {
-        "category": "['FINANCE']",
-        "classification": "99",
-        "developer": "TD Ameritrade",
-        "id": 2718,
-        "name": "TD Ameritrade Mobile",
-        "numreviews": "6482",
-        "price": "0",
-        "rating": "3.4",
-        "url": "https://play.google.com/store/apps/details?id=com.tdameritrade.mobile3&hl=en"
     },
     {
         "category": "['FINANCE']",
@@ -30219,17 +29856,6 @@
     {
         "category": "['FINANCE']",
         "classification": "99",
-        "developer": "Progressive Insurance",
-        "id": 2748,
-        "name": "Snapshot\u00ae",
-        "numreviews": "5076",
-        "price": "0",
-        "rating": "3.9",
-        "url": "https://play.google.com/store/apps/details?id=com.progressive.snapshot2&hl=en"
-    },
-    {
-        "category": "['FINANCE']",
-        "classification": "99",
         "developer": "Affinity Plus Federal Credit Union",
         "id": 2749,
         "name": "Affinity Plus Mobile Banking",
@@ -30303,17 +29929,6 @@
         "price": "0",
         "rating": "4.6",
         "url": "https://play.google.com/store/apps/details?id=com.pnc.ecommerce.mobile&hl=en_US"
-    },
-    {
-        "category": "['FINANCE']",
-        "classification": "99",
-        "developer": "Toyota Motor Credit Corporation",
-        "id": 2756,
-        "name": "myLFS - Lexus Financial",
-        "numreviews": "334",
-        "price": "0",
-        "rating": "3",
-        "url": "https://play.google.com/store/apps/details?id=com.tmcc.click2pay.mylfs&hl=en"
     },
     {
         "category": "['FINANCE']",
@@ -31088,17 +30703,6 @@
     {
         "category": "['FINANCE']",
         "classification": "99",
-        "developer": "BudgetBakers.com",
-        "id": 2827,
-        "name": "Wallet - Money, Budget, Finance & Expense Tracker",
-        "numreviews": "144690",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.droid4you.application.wallet&hl=en"
-    },
-    {
-        "category": "['FINANCE']",
-        "classification": "99",
         "developer": "Intuit Inc",
         "id": 2828,
         "name": "QuickBooks Self-Employed:Mileage Tracker and Taxes",
@@ -31583,17 +31187,6 @@
     {
         "category": "['FOOD_AND_DRINK']",
         "classification": "99",
-        "developer": "Popeyes Louisiana Kitchen, Inc.",
-        "id": 2872,
-        "name": "Popeyes\u00ae App",
-        "numreviews": "9096",
-        "price": "0",
-        "rating": "4",
-        "url": "https://play.google.com/store/apps/details?id=com.emn8.mobilem8.nativeapp.popeyes&hl=en"
-    },
-    {
-        "category": "['FOOD_AND_DRINK']",
-        "classification": "99",
         "developer": "McDonald's Apps",
         "id": 2873,
         "name": "McDonald's",
@@ -31612,17 +31205,6 @@
         "price": "0",
         "rating": "4.3",
         "url": "https://play.google.com/store/apps/details?id=com.Dominos&hl=en"
-    },
-    {
-        "category": "['FOOD_AND_DRINK']",
-        "classification": "99",
-        "developer": "Burger King, Inc.",
-        "id": 2875,
-        "name": "BURGER KING\u00ae App",
-        "numreviews": "119317",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.emn8.mobilem8.nativeapp.bk&hl=en"
     },
     {
         "category": "['FOOD_AND_DRINK']",
@@ -31722,17 +31304,6 @@
         "price": "0",
         "rating": "4.9",
         "url": "https://play.google.com/store/apps/details?id=com.olo.noodles&hl=en"
-    },
-    {
-        "category": "['FOOD_AND_DRINK']",
-        "classification": "99",
-        "developer": "SUBWAY Restaurants",
-        "id": 2885,
-        "name": "SUBWAY\u00ae",
-        "numreviews": "108891",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.subway.mobile.subwayapp03&hl=en"
     },
     {
         "category": "['FOOD_AND_DRINK']",
@@ -31858,17 +31429,6 @@
     {
         "category": "['HEALTH_AND_FITNESS']",
         "classification": "99",
-        "developer": "Leap Fitness Group",
-        "id": 2897,
-        "name": "Blue Light Filter - Night Mode, Night Shift",
-        "numreviews": "326486",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.eyefilter.nightmode.bluelightfilter&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
-        "classification": "99",
         "developer": "Life Time, Inc.",
         "id": 2898,
         "name": "Life Time Member App",
@@ -31957,17 +31517,6 @@
     {
         "category": "['HEALTH_AND_FITNESS']",
         "classification": "99",
-        "developer": "MapMyFitness, Inc.",
-        "id": 2906,
-        "name": "Run with Map My Run",
-        "numreviews": "262257",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.mapmyrun.android2&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
-        "classification": "99",
         "developer": "Netpulse Inc.",
         "id": 2907,
         "name": "UFC Gym",
@@ -32022,28 +31571,6 @@
     },
     {
         "category": "['HEALTH_AND_FITNESS']",
-        "classification": "99",
-        "developer": "MapMyFitness, Inc.",
-        "id": 2912,
-        "name": "Map My Ride GPS Cycling Riding",
-        "numreviews": "143522",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.mapmyride.android2&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
-        "classification": "4",
-        "developer": "Headspace for Meditation, Mindfulness and Sleep",
-        "id": 2913,
-        "name": "Headspace: Meditation & Sleep",
-        "numreviews": "131698",
-        "price": "0",
-        "rating": "3.4",
-        "url": "https://play.google.com/store/apps/details?id=com.getsomeheadspace.android&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
         "classification": "1",
         "developer": "Lifesum",
         "id": 2914,
@@ -32085,17 +31612,6 @@
         "price": "0",
         "rating": "4.1",
         "url": "https://play.google.com/store/apps/details?id=com.sixtostart.zombiesrunclient&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
-        "classification": "99",
-        "developer": "Withings",
-        "id": 2918,
-        "name": "Health Mate - Total Health Tracking",
-        "numreviews": "66609",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.withings.wiscale2&hl=en"
     },
     {
         "category": "['HEALTH_AND_FITNESS']",
@@ -32385,17 +31901,6 @@
     },
     {
         "category": "['HEALTH_AND_FITNESS']",
-        "classification": "4",
-        "developer": "Insight Network Inc",
-        "id": 2945,
-        "name": "Insight Timer - Free Meditation App",
-        "numreviews": "63115",
-        "price": "0",
-        "rating": "4.7",
-        "url": "https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
         "classification": "1",
         "developer": "Wombat Apps LLC",
         "id": 2946,
@@ -32569,17 +32074,6 @@
         "price": "0",
         "rating": "1.8",
         "url": "https://play.google.com/store/apps/details?id=com.Uhealth.es.system&hl=en"
-    },
-    {
-        "category": "['HEALTH_AND_FITNESS']",
-        "classification": "99",
-        "developer": "Smart Wearable Devices",
-        "id": 2962,
-        "name": "VeryFitPro",
-        "numreviews": "50040",
-        "price": "0",
-        "rating": "3",
-        "url": "https://play.google.com/store/apps/details?id=com.veryfit2hr.second"
     },
     {
         "category": "['HEALTH_AND_FITNESS']",
@@ -33284,17 +32778,6 @@
         "price": "0",
         "rating": "2.9",
         "url": "https://play.google.com/store/apps/details?id=com.smartthings.android&hl=en"
-    },
-    {
-        "category": "['LIFESTYLE']",
-        "classification": "99",
-        "developer": "Signify Netherlands B.V.",
-        "id": 3027,
-        "name": "Philips Hue",
-        "numreviews": "30720",
-        "price": "0",
-        "rating": "4.3",
-        "url": "https://play.google.com/store/apps/details?id=com.philips.lighting.hue2&hl=en"
     },
     {
         "category": "['LIFESTYLE']",
@@ -34289,17 +33772,6 @@
     {
         "category": "['MAPS_AND_NAVIGATION']",
         "classification": "99",
-        "developer": "Parkmobile, LLC",
-        "id": 3118,
-        "name": "ParkMobile - Find Parking",
-        "numreviews": "38135",
-        "price": "0",
-        "rating": "3.2",
-        "url": "https://play.google.com/store/apps/details?id=net.sharewire.parkmobilev2&hl=en"
-    },
-    {
-        "category": "['MAPS_AND_NAVIGATION']",
-        "classification": "99",
         "developer": "Chicago Transit Authority",
         "id": 3119,
         "name": "Ventra",
@@ -34729,17 +34201,6 @@
     {
         "category": "['GAME_MUSIC']",
         "classification": "99",
-        "developer": "Gismart",
-        "id": 3158,
-        "name": "Drum Set Music Games & Drums Kit Simulator",
-        "numreviews": "239221",
-        "price": "0",
-        "rating": "3.7",
-        "url": "https://play.google.com/store/apps/details?id=com.gismart.realdrum2free&hl=en"
-    },
-    {
-        "category": "['GAME_MUSIC']",
-        "classification": "99",
         "developer": "FreshPlanet",
         "id": 3159,
         "name": "SongPop",
@@ -34824,17 +34285,6 @@
         "price": "0",
         "rating": "4.2",
         "url": "https://play.google.com/store/apps/details?id=com.google.android.music&hl=en"
-    },
-    {
-        "category": "['MUSIC_AND_AUDIO']",
-        "classification": "99",
-        "developer": "Amazon Mobile LLC",
-        "id": 3167,
-        "name": "Amazon Music: Play & Download Trending Songs",
-        "numreviews": "1699437",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.amazon.mp3&hl=en"
     },
     {
         "category": "['MUSIC_AND_AUDIO']",
@@ -35429,17 +34879,6 @@
         "price": "0",
         "rating": "4.6",
         "url": "https://play.google.com/store/apps/details?id=com.audiomack&hl=en"
-    },
-    {
-        "category": "['MUSIC_AND_AUDIO']",
-        "classification": "99",
-        "developer": "TIDAL",
-        "id": 3222,
-        "name": "TIDAL Music - Hifi Songs, Playlists, & Videos",
-        "numreviews": "207270",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.aspiro.tidal&hl=en"
     },
     {
         "category": "['PARENTING']",
@@ -36181,28 +35620,6 @@
     {
         "category": "['PHOTOGRAPHY']",
         "classification": "99",
-        "developer": "Google LLC",
-        "id": 3290,
-        "name": "PhotoScan by Google Photos",
-        "numreviews": "107576",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos.scanner&hl=en"
-    },
-    {
-        "category": "['PHOTOGRAPHY']",
-        "classification": "99",
-        "developer": "Samsung Electronics Co.,  Ltd.",
-        "id": 3291,
-        "name": "Samsung Gallery",
-        "numreviews": "2342329",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.sec.android.gallery3d&hl=en"
-    },
-    {
-        "category": "['PHOTOGRAPHY']",
-        "classification": "99",
         "developer": "Motorola Mobility LLC.",
         "id": 3292,
         "name": "Motorola Camera",
@@ -36254,17 +35671,6 @@
         "price": "0",
         "rating": "4.3",
         "url": "https://play.google.com/store/apps/details?id=com.oneplus.gallery&hl=en"
-    },
-    {
-        "category": "['PHOTOGRAPHY']",
-        "classification": "99",
-        "developer": "Amazon Mobile LLC",
-        "id": 3297,
-        "name": "Amazon Photos",
-        "numreviews": "281993",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.amazon.clouddrive.photos&hl=en"
     },
     {
         "category": "['PHOTOGRAPHY']",
@@ -36452,17 +35858,6 @@
         "price": "0",
         "rating": "3.9",
         "url": "https://play.google.com/store/apps/details?id=com.lightricks.facetune.free&hl=en"
-    },
-    {
-        "category": "['PHOTOGRAPHY']",
-        "classification": "99",
-        "developer": "Studio 8 Apps",
-        "id": 3315,
-        "name": "Square InPic - Photo Editor & Collage Maker",
-        "numreviews": "665881",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.studio8apps.instasizenocrop&hl=en"
     },
     {
         "category": "['PHOTOGRAPHY']",
@@ -36776,17 +36171,6 @@
         "category": "['PRODUCTIVITY']",
         "classification": "99",
         "developer": "Google LLC",
-        "id": 3344,
-        "name": "Google Docs",
-        "numreviews": "1277604",
-        "price": "0",
-        "rating": "4.3",
-        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs&hl=en"
-    },
-    {
-        "category": "['PRODUCTIVITY']",
-        "classification": "99",
-        "developer": "Google LLC",
         "id": 3345,
         "name": "Google Calendar",
         "numreviews": "1287754",
@@ -37057,17 +36441,6 @@
         "price": "0",
         "rating": "4.4",
         "url": "https://play.google.com/store/apps/details?id=com.blackberry.tasks&hl=en"
-    },
-    {
-        "category": "['PRODUCTIVITY']",
-        "classification": "99",
-        "developer": "Hancom Inc.",
-        "id": 3370,
-        "name": "Hancom Office (Hancom Space)",
-        "numreviews": "371",
-        "price": "0",
-        "rating": "2.9",
-        "url": "https://play.google.com/store/apps/details?id=com.hancom.office.editor.netffice&hl=en"
     },
     {
         "category": "['PRODUCTIVITY']",
@@ -37644,17 +37017,6 @@
     {
         "category": "['PRODUCTIVITY']",
         "classification": "99",
-        "developer": "Blue Horizon Apps",
-        "id": 3423,
-        "name": "NiceLock - Launcher for Good Lock",
-        "numreviews": "2575",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.bluehorizonapps.nicelock3&hl=en"
-    },
-    {
-        "category": "['PRODUCTIVITY']",
-        "classification": "99",
         "developer": "Microsoft Corporation",
         "id": 3424,
         "name": "Microsoft OneNote: Save Ideas and Organize Notes",
@@ -38216,17 +37578,6 @@
     {
         "category": "['PRODUCTIVITY']",
         "classification": "99",
-        "developer": "HotSchedules",
-        "id": 3475,
-        "name": "HS Team",
-        "numreviews": "1836",
-        "price": "0",
-        "rating": "3.8",
-        "url": "https://play.google.com/store/apps/details?id=com.tdr3.hs.android.cfa&hl=en"
-    },
-    {
-        "category": "['PRODUCTIVITY']",
-        "classification": "99",
         "developer": "Estmob Inc.",
         "id": 3476,
         "name": "Send Anywhere (File Transfer)",
@@ -38344,17 +37695,6 @@
         "price": "0",
         "rating": "4.4",
         "url": "https://play.google.com/store/apps/details?id=se.raketspel.digaround&hl=en"
-    },
-    {
-        "category": "['GAME_PUZZLE']",
-        "classification": "99",
-        "developer": "BitMango",
-        "id": 3487,
-        "name": "Jewels Magic: Mystery Match3",
-        "numreviews": "28959",
-        "price": "0",
-        "rating": "4.5",
-        "url": "https://play.google.com/store/apps/details?id=com.bitmango.go.jewelsmagicmysterymatch3&hl=en"
     },
     {
         "category": "['GAME_PUZZLE']",
@@ -38623,17 +37963,6 @@
     {
         "category": "['GAME_PUZZLE']",
         "classification": "99",
-        "developer": "Good Job Games",
-        "id": 3512,
-        "name": "Color Fill 3D",
-        "numreviews": "188749",
-        "price": "0",
-        "rating": "3.7",
-        "url": "https://play.google.com/store/apps/details?id=com.gjg.colorfill3d&hl=en"
-    },
-    {
-        "category": "['GAME_PUZZLE']",
-        "classification": "99",
         "developer": "BitMango",
         "id": 3513,
         "name": "Block! Triangle puzzle: Tangram",
@@ -38685,17 +38014,6 @@
         "price": "0",
         "rating": "4.5",
         "url": "https://play.google.com/store/apps/details?id=dk.tactile.lilysgarden&hl=en"
-    },
-    {
-        "category": "['GAME_PUZZLE']",
-        "classification": "1",
-        "developer": "Androbaby",
-        "id": 3518,
-        "name": "2048",
-        "numreviews": "258446",
-        "price": "0",
-        "rating": "4.7",
-        "url": "https://play.google.com/store/apps/details?id=com.androbaby.game2048&hl=en"
     },
     {
         "category": "['GAME_PUZZLE']",
@@ -39041,17 +38359,6 @@
     {
         "category": "['GAME_RACING']",
         "classification": "99",
-        "developer": "ELECTRONIC ARTS",
-        "id": 3550,
-        "name": "Need for Speed\u2122 No Limits",
-        "numreviews": "0",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.ea.game.nfs14_row&hl=in"
-    },
-    {
-        "category": "['GAME_RACING']",
-        "classification": "99",
         "developer": "CarX Technologies",
         "id": 3551,
         "name": "CarX Highway Racing",
@@ -39092,17 +38399,6 @@
         "price": "0",
         "rating": "3.8",
         "url": "https://play.google.com/store/apps/details?id=com.hnk.touchthewall&hl=en"
-    },
-    {
-        "category": "['GAME_RACING']",
-        "classification": "99",
-        "developer": "Fingersoft",
-        "id": 3555,
-        "name": "Hill Climb Racing 2",
-        "numreviews": "3796912",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en"
     },
     {
         "category": "['GAME_RACING']",
@@ -39261,17 +38557,6 @@
     {
         "category": "['GAME_ROLE_PLAYING']",
         "classification": "99",
-        "developer": "DeNA Co., Ltd.",
-        "id": 3570,
-        "name": "Pok\u00e9mon Masters",
-        "numreviews": "301170",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.dena.a12026418&hl=en"
-    },
-    {
-        "category": "['GAME_ROLE_PLAYING']",
-        "classification": "99",
         "developer": "Sulake Corporation Oy",
         "id": 3571,
         "name": "Hotel Hideaway - Virtual Reality Life Simulator",
@@ -39301,17 +38586,6 @@
         "price": "0",
         "rating": "4.6",
         "url": "https://play.google.com/store/apps/details?id=com.ebay.mobile&hl=en"
-    },
-    {
-        "category": "['SHOPPING']",
-        "classification": "99",
-        "developer": "Amazon Mobile LLC",
-        "id": 3574,
-        "name": "Amazon Shopping - Search, Find, Ship, and Save",
-        "numreviews": "1399608",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping&hl=en"
     },
     {
         "category": "['SHOPPING']",
@@ -40174,17 +39448,6 @@
     {
         "category": "['SHOPPING']",
         "classification": "99",
-        "developer": "Forever 21",
-        "id": 3653,
-        "name": "Forever 21 - The Latest Fashion & Clothing",
-        "numreviews": "33562",
-        "price": "0",
-        "rating": "4",
-        "url": "https://play.google.com/store/apps/details?id=com.rarewire.forever21&hl=en"
-    },
-    {
-        "category": "['SHOPPING']",
-        "classification": "99",
         "developer": "Family Dollar Stores",
         "id": 3654,
         "name": "Family Dollar",
@@ -40258,17 +39521,6 @@
         "price": "0",
         "rating": "4.2",
         "url": "https://play.google.com/store/apps/details?id=com.samsung.ecomm.global.in&hl=en"
-    },
-    {
-        "category": "['SHOPPING']",
-        "classification": "99",
-        "developer": "B2W Digital",
-        "id": 3661,
-        "name": "Submarino: Compras com Descontos na Loja Online",
-        "numreviews": "87543",
-        "price": "0",
-        "rating": "4",
-        "url": "https://play.google.com/store/apps/details?id=com.b2w.submarino&hl=en"
     },
     {
         "category": "['SHOPPING']",
@@ -40801,17 +40053,6 @@
     {
         "category": "['SOCIAL']",
         "classification": "99",
-        "developer": "Facebook",
-        "id": 3710,
-        "name": "Facebook",
-        "numreviews": "100244641",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US"
-    },
-    {
-        "category": "['SOCIAL']",
-        "classification": "99",
         "developer": "Tumblr, Inc",
         "id": 3711,
         "name": "Tumblr",
@@ -41285,17 +40526,6 @@
     {
         "category": "['SPORTS']",
         "classification": "99",
-        "developer": "Tata Consultancy Services Limited",
-        "id": 3754,
-        "name": "TCSNYCMarathon",
-        "numreviews": "846",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.tcs.newyorkmarathon2013&hl=en"
-    },
-    {
-        "category": "['SPORTS']",
-        "classification": "99",
         "developer": "NFL Enterprises LLC",
         "id": 3755,
         "name": "NFL Fantasy Football",
@@ -41638,17 +40868,6 @@
         "category": "['TOOLS']",
         "classification": "99",
         "developer": "Google LLC",
-        "id": 3786,
-        "name": "Google Authenticator",
-        "numreviews": "239255",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
-        "developer": "Google LLC",
         "id": 3787,
         "name": "Clock",
         "numreviews": "287379",
@@ -41802,17 +41021,6 @@
     {
         "category": "['TOOLS']",
         "classification": "99",
-        "developer": "SB studio",
-        "id": 3801,
-        "name": "Gallery",
-        "numreviews": "124946",
-        "price": "0",
-        "rating": "4.2",
-        "url": "https://play.google.com/store/apps/details?id=com.threestar.gallery&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
         "developer": "DoorDash",
         "id": 3802,
         "name": "DoorDash - Driver",
@@ -41912,17 +41120,6 @@
     {
         "category": "['TOOLS']",
         "classification": "99",
-        "developer": "Samsung Electronics Co.,  Ltd.",
-        "id": 3811,
-        "name": "Gear Fit2 Plugin",
-        "numreviews": "5568",
-        "price": "0",
-        "rating": "3.8",
-        "url": "https://play.google.com/store/apps/details?id=com.samsung.android.gearfit2plugin&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
         "developer": "Google LLC",
         "id": 3812,
         "name": "Files by Google: Clean up space on your phone",
@@ -41930,17 +41127,6 @@
         "price": "0",
         "rating": "4.6",
         "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
-        "developer": "AVG Mobile",
-        "id": 3813,
-        "name": "AVG AntiVirus Free & Mobile Security, Photo Vault",
-        "numreviews": "6883238",
-        "price": "0",
-        "rating": "4.7",
-        "url": "https://play.google.com/store/apps/details?id=com.antivirus&hl=en"
     },
     {
         "category": "['TOOLS']",
@@ -42209,17 +41395,6 @@
     {
         "category": "['TOOLS']",
         "classification": "99",
-        "developer": "TWMobile",
-        "id": 3838,
-        "name": "QR code reader & QR code Scanner",
-        "numreviews": "585864",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
         "developer": "Ookla",
         "id": 3839,
         "name": "Speedtest by Ookla",
@@ -42227,17 +41402,6 @@
         "price": "0",
         "rating": "4.4",
         "url": "https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
-        "developer": "Verizon Consumer Group",
-        "id": 3840,
-        "name": "Digital Secure",
-        "numreviews": "39539",
-        "price": "0",
-        "rating": "4.1",
-        "url": "https://play.google.com/store/apps/details?id=com.asurion.android.verizon.vms&hl=en"
     },
     {
         "category": "['TOOLS']",
@@ -42326,17 +41490,6 @@
         "price": "0",
         "rating": "3.9",
         "url": "https://play.google.com/store/apps/details?id=com.jamworks.bxactions&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
-        "developer": "Samsung Electronics Co.,  Ltd.",
-        "id": 3849,
-        "name": "Samsung Smart Switch Mobile",
-        "numreviews": "220594",
-        "price": "0",
-        "rating": "4.3",
-        "url": "https://play.google.com/store/apps/details?id=com.sec.android.easyMover&hl=en"
     },
     {
         "category": "['TOOLS']",
@@ -42671,17 +41824,6 @@
     {
         "category": "['TOOLS']",
         "classification": "99",
-        "developer": "Samsung Electronics Co.,  Ltd.",
-        "id": 3880,
-        "name": "Device Care",
-        "numreviews": "227640",
-        "price": "0",
-        "rating": "4.3",
-        "url": "https://play.google.com/store/apps/details?id=com.samsung.android.lool&hl=en_US"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
         "developer": "Telenor-Pakistan",
         "id": 3881,
         "name": "My Telenor",
@@ -42704,17 +41846,6 @@
     {
         "category": "['TOOLS']",
         "classification": "99",
-        "developer": "HMD Global",
-        "id": 3883,
-        "name": "Camera",
-        "numreviews": "5118",
-        "price": "0",
-        "rating": "3.6",
-        "url": "https://play.google.com/store/apps/details?id=com.hmdglobal.camera2&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
         "developer": "Muslim Assistant",
         "id": 3884,
         "name": "100% Qibla Finder",
@@ -42722,17 +41853,6 @@
         "price": "0",
         "rating": "4",
         "url": "https://play.google.com/store/apps/details?id=com.hundred.qibla.finder&hl=en"
-    },
-    {
-        "category": "['TOOLS']",
-        "classification": "99",
-        "developer": "Avast Software",
-        "id": 3885,
-        "name": "Avast Antivirus \u2013 Scan & Remove Virus, Cleaner",
-        "numreviews": "6173427",
-        "price": "0",
-        "rating": "4.7",
-        "url": "https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity&hl=en"
     },
     {
         "category": "['TOOLS']",
@@ -43848,28 +42968,6 @@
     {
         "category": "['TRAVEL_AND_LOCAL']",
         "classification": "99",
-        "developer": "Flightradar24 AB",
-        "id": 3987,
-        "name": "Flightradar24 Flight Tracker",
-        "numreviews": "329062",
-        "price": "0",
-        "rating": "4.3",
-        "url": "https://play.google.com/store/apps/details?id=com.flightradar24free&hl=en"
-    },
-    {
-        "category": "['TRAVEL_AND_LOCAL']",
-        "classification": "99",
-        "developer": "Disney",
-        "id": 3988,
-        "name": "Play Disney Parks",
-        "numreviews": "2221",
-        "price": "0",
-        "rating": "4.8",
-        "url": "https://play.google.com/store/apps/details?id=com.disney.playdisneyparks.goo&hl=en"
-    },
-    {
-        "category": "['TRAVEL_AND_LOCAL']",
-        "classification": "99",
         "developer": "KAYAK.com",
         "id": 3989,
         "name": "KAYAK Flights, Hotels & Cars",
@@ -44090,17 +43188,6 @@
     {
         "category": "['TRAVEL_AND_LOCAL']",
         "classification": "99",
-        "developer": "Priority Pass",
-        "id": 4009,
-        "name": "Priority Pass\u2122",
-        "numreviews": "16208",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.prioritypass3&hl=en"
-    },
-    {
-        "category": "['TRAVEL_AND_LOCAL']",
-        "classification": "99",
         "developer": "Leisure Pass Group",
         "id": 4010,
         "name": "Go City Pass - Attraction Tickets & Travel Guide",
@@ -44167,17 +43254,6 @@
     {
         "category": "['GAME_TRIVIA']",
         "classification": "1",
-        "developer": "Sony Pictures Television",
-        "id": 4016,
-        "name": "Jeopardy!\u00ae World Tour - Trivia & Quiz Game Show",
-        "numreviews": "142402",
-        "price": "0",
-        "rating": "4.3",
-        "url": "https://play.google.com/store/apps/details?id=com.sonypicturestelevision.jeopardy2&hl=en"
-    },
-    {
-        "category": "['GAME_TRIVIA']",
-        "classification": "1",
         "developer": "gedev",
         "id": 4017,
         "name": "Flags and Capitals of the World Quiz",
@@ -44207,17 +43283,6 @@
         "price": "0",
         "rating": "4.2",
         "url": "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en"
-    },
-    {
-        "category": "['VIDEO_PLAYERS']",
-        "classification": "99",
-        "developer": "Samsung Electronics Co.,  Ltd.",
-        "id": 4020,
-        "name": "Samsung Video Library",
-        "numreviews": "69659",
-        "price": "0",
-        "rating": "4.4",
-        "url": "https://play.google.com/store/apps/details?id=com.samsung.android.videolist&hl=en"
     },
     {
         "category": "['VIDEO_PLAYERS']",
@@ -44563,17 +43628,6 @@
     {
         "category": "['WEATHER']",
         "classification": "99",
-        "developer": "MACHAPP Software Ltd",
-        "id": 4052,
-        "name": "Transparent clock & weather - forecast & radar",
-        "numreviews": "899390",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.droid27.transparentclockweather&hl=en"
-    },
-    {
-        "category": "['WEATHER']",
-        "classification": "99",
         "developer": "USNaviguide LLC",
         "id": 4053,
         "name": "RadarNow! \u00ae",
@@ -44603,17 +43657,6 @@
         "price": "0",
         "rating": "4.5",
         "url": "https://play.google.com/store/apps/details?id=com.jrustonapps.myauroraforecast&hl=en"
-    },
-    {
-        "category": "['WEATHER']",
-        "classification": "99",
-        "developer": "MACHAPP Software Ltd",
-        "id": 4056,
-        "name": "Digital clock & world weather",
-        "numreviews": "27361",
-        "price": "0",
-        "rating": "4.6",
-        "url": "https://play.google.com/store/apps/details?id=com.droid27.digitalclockweather&hl=en"
     },
     {
         "category": "['WEATHER']",

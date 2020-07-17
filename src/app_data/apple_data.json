@@ -63,6 +63,13 @@
         "url": "https://apps.apple.com/us/app/datestamper/id916281570"
     },
     {
+        "classification": "6",
+        "id": "444",
+        "name": "Messages",
+        "short_name": "messages",
+        "url": "https://support.apple.com/explore/messages"
+    },
+    {
         "classification": "2",
         "id": "379693831",
         "name": "Audible audiobooks & originals",
@@ -82,13 +89,6 @@
         "name": "Sidefari - Web browsing companion for Safari",
         "short_name": "safari",
         "url": "https://apps.apple.com/us/app/sidefari-web-browsing-companion-for-safari/id1046968235"
-    },
-    {
-        "classification": "6",
-        "id": "1046968235",
-        "name": "Messages",
-        "short_name": "messages",
-        "url": "https://support.apple.com/explore/messages"
     },
     {
         "classification": "4",
@@ -1786,13 +1786,6 @@
     },
     {
         "classification": "99",
-        "id": "398129933",
-        "name": "The Calculator",
-        "short_name": "thecalculator",
-        "url": "https://apps.apple.com/us/app/the-calculator/id398129933"
-    },
-    {
-        "classification": "99",
         "id": "1069512134",
         "name": "Voice Memos",
         "short_name": "voicememos",
@@ -1825,13 +1818,6 @@
         "name": "Facetune",
         "short_name": "facetune",
         "url": "https://apps.apple.com/ph/app/facetune/id606310581"
-    },
-    {
-        "classification": "99",
-        "id": "477128284",
-        "name": "Etsy \u2013 Shop special, every day",
-        "short_name": "etsyshopcreative",
-        "url": "https://apps.apple.com/bt/app/etsy-shop-creative/id477128284"
     },
     {
         "classification": "99",
@@ -3347,13 +3333,6 @@
     },
     {
         "classification": "99",
-        "id": "909319292",
-        "name": "Google Calendar: Time Planner",
-        "short_name": "calendars",
-        "url": "https://apps.apple.com/us/app/google-calendar-time-planner/id909319292"
-    },
-    {
-        "classification": "99",
         "id": "868013618",
         "name": "Best Fiends - Puzzle Adventure",
         "short_name": "bestfiends",
@@ -3869,13 +3848,6 @@
         "name": "XING",
         "short_name": "xing",
         "url": "https://apps.apple.com/us/app/xing/id297625850"
-    },
-    {
-        "classification": "2",
-        "id": "352509417",
-        "name": "Washington Post",
-        "short_name": "washingtonpost",
-        "url": "https://apps.apple.com/us/app/washington-post/id352509417"
     },
     {
         "classification": "99",
@@ -5195,13 +5167,6 @@
     },
     {
         "classification": "99",
-        "id": "333903271",
-        "name": "Twitter",
-        "short_name": "tw",
-        "url": "https://apps.apple.com/us/app/twitter/id333903271"
-    },
-    {
-        "classification": "99",
         "id": "1260842311",
         "name": "Bird - Be Free, Enjoy the Ride",
         "short_name": "bird",
@@ -5363,24 +5328,10 @@
     },
     {
         "classification": "99",
-        "id": "962194608",
-        "name": "Google Photos",
-        "short_name": "googlephotos",
-        "url": "https://apps.apple.com/us/app/google-photos/id962194608?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1069511734",
         "name": "Watch",
         "short_name": "watch",
         "url": "https://apps.apple.com/us/app/watch/id1069511734?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "324715238",
-        "name": "Wikipedia",
-        "short_name": "wikipedia",
-        "url": "https://apps.apple.com/us/app/wikipedia/id324715238?uo=4"
     },
     {
         "classification": "99",
@@ -5447,13 +5398,6 @@
     },
     {
         "classification": "99",
-        "id": "358821736",
-        "name": "Urban Outfitters",
-        "short_name": "uo",
-        "url": "https://apps.apple.com/us/app/urban-outfitters/id358821736?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1002275138",
         "name": "Period Tracker - Eve",
         "short_name": "eve",
@@ -5468,24 +5412,10 @@
     },
     {
         "classification": "99",
-        "id": "559887125",
-        "name": "Ibotta: Save & Earn Cash Back",
-        "short_name": "lbotta",
-        "url": "https://apps.apple.com/us/app/ibotta-save-earn-cash-back/id559887125?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1455423917",
         "name": "ThisWeek News",
         "short_name": "thisweek",
         "url": "https://apps.apple.com/us/app/thisweek-news/id1455423917?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "284035177",
-        "name": "Pandora: Music & Podcasts",
-        "short_name": "pandoramusic",
-        "url": "https://apps.apple.com/us/app/pandora-music-podcasts/id284035177?uo=4"
     },
     {
         "classification": "99",
@@ -5503,31 +5433,10 @@
     },
     {
         "classification": "99",
-        "id": "376101648",
-        "name": "Find My iPhone",
-        "short_name": "findmy",
-        "url": "https://apps.apple.com/us/app/find-my-iphone/id376101648?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1090987006",
         "name": "Drop: Shopping & Cashback App",
         "short_name": "drop",
         "url": "https://apps.apple.com/us/app/drop-shopping-cashback-app/id1090987006?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "507874739",
-        "name": "Google Drive",
-        "short_name": "googledrive",
-        "url": "https://apps.apple.com/us/app/google-drive/id507874739?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "471394851",
-        "name": "Bandsintown Concerts",
-        "short_name": "bandsintownconcerts",
-        "url": "https://apps.apple.com/us/app/bandsintown-concerts/id471394851?uo=4"
     },
     {
         "classification": "99",
@@ -5580,20 +5489,6 @@
     },
     {
         "classification": "99",
-        "id": "376510438",
-        "name": "Hulu: Stream TV shows & movies",
-        "short_name": "huiu",
-        "url": "https://apps.apple.com/us/app/hulu-stream-tv-shows-movies/id376510438?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "1452992954",
-        "name": "Nonogram.com - Griddlers Game",
-        "short_name": "nonogram",
-        "url": "https://apps.apple.com/us/app/nonogram-com-griddlers-game/id1452992954?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1248400379",
         "name": "Productiv",
         "short_name": "productiv",
@@ -5605,13 +5500,6 @@
         "name": "Latter-day Saints Channel",
         "short_name": "saintschannel",
         "url": "https://apps.apple.com/us/app/latter-day-saints-channel/id319828221?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "345323231",
-        "name": "Microsoft Bing Search",
-        "short_name": "bing",
-        "url": "https://apps.apple.com/us/app/microsoft-bing-search/id345323231?uo=4"
     },
     {
         "classification": "99",
@@ -5930,13 +5818,6 @@
     },
     {
         "classification": "99",
-        "id": "1111876388",
-        "name": "T-Mobile Tuesdays",
-        "short_name": "tuesdays",
-        "url": "https://apps.apple.com/us/app/t-mobile-tuesdays/id1111876388?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "691797987",
         "name": "Google Play Music",
         "short_name": "playmusic",
@@ -6224,13 +6105,6 @@
     },
     {
         "classification": "99",
-        "id": "395545555",
-        "name": "CVS Pharmacy",
-        "short_name": "cvs",
-        "url": "https://apps.apple.com/us/app/cvs-pharmacy/id395545555?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "499725337",
         "name": "thredUP",
         "short_name": "thredup",
@@ -6326,13 +6200,6 @@
         "name": "Expectful Meditation & Sleep",
         "short_name": "expectful",
         "url": "https://apps.apple.com/us/app/expectful-meditation-sleep/id1173564771?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "375380948",
-        "name": "Apple Store",
-        "short_name": "applestore",
-        "url": "https://apps.apple.com/us/app/apple-store/id375380948?uo=4"
     },
     {
         "classification": "99",
@@ -6525,13 +6392,6 @@
     },
     {
         "classification": "99",
-        "id": "493619333",
-        "name": "MLB",
-        "short_name": "mlb",
-        "url": "https://apps.apple.com/us/app/mlb/id493619333?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1255964203",
         "name": "Tabata Timer: Interval Timer.",
         "short_name": "tabatatimer",
@@ -6550,13 +6410,6 @@
         "name": "Whealthy: Health Is Wealth",
         "short_name": "whealthy",
         "url": "https://apps.apple.com/us/app/whealthy-health-is-wealth/id1492390434?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "309735670",
-        "name": "Indeed Job Search",
-        "short_name": "indeedjobsearch",
-        "url": "https://apps.apple.com/us/app/indeed-job-search/id309735670?uo=4"
     },
     {
         "classification": "99",
@@ -7064,13 +6917,6 @@
     },
     {
         "classification": "99",
-        "id": "640199958",
-        "name": "Apple Developer",
-        "short_name": "appledeveloper",
-        "url": "https://apps.apple.com/us/app/apple-developer/id640199958?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1078789949",
         "name": "ZAFUL - My Fashion Story",
         "short_name": "zaful",
@@ -7155,13 +7001,6 @@
     },
     {
         "classification": "99",
-        "id": "297606951",
-        "name": "Amazon - Shopping made easy",
-        "short_name": "amazonshoppingmadeeasy",
-        "url": "https://apps.apple.com/us/app/amazon-shopping-made-easy/id297606951?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "287734809",
         "name": "Whitepages People Search",
         "short_name": "whitepagespeoplesearch",
@@ -7187,13 +7026,6 @@
         "name": "Simmons Bank",
         "short_name": "simmonsbank",
         "url": "https://apps.apple.com/us/app/simmons-bank/id1451235068?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "345323231",
-        "name": "Microsoft Bing Search",
-        "short_name": "microsoftbingsearch",
-        "url": "https://apps.apple.com/us/app/microsoft-bing-search/id345323231?uo=4"
     },
     {
         "classification": "99",
@@ -7292,13 +7124,6 @@
         "name": "Cube Cube!",
         "short_name": "cubecube",
         "url": "https://apps.apple.com/us/app/cube-cube/id1435216919?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "586447913",
-        "name": "Microsoft Word",
-        "short_name": "microsoftword",
-        "url": "https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4"
     },
     {
         "classification": "99",
@@ -7446,13 +7271,6 @@
         "name": "Game of Games the Game",
         "short_name": "gameofgames",
         "url": "https://apps.apple.com/us/app/game-of-games-the-game/id1439363292?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "399072152",
-        "name": "Food Network Kitchen",
-        "short_name": "foodnetworkkitchen",
-        "url": "https://apps.apple.com/us/app/food-network-kitchen/id399072152?uo=4"
     },
     {
         "classification": "99",
@@ -7645,13 +7463,6 @@
     },
     {
         "classification": "99",
-        "id": "422689480",
-        "name": "Gmail - Email by Google",
-        "short_name": "gmailemailbygoogle",
-        "url": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1193508329",
         "name": "Sudoku.com - Brain Games",
         "short_name": "sudokucombraingames",
@@ -7677,13 +7488,6 @@
         "name": "Ticketmaster\uff0dBuy, Sell Tickets",
         "short_name": "ticketmaster",
         "url": "https://apps.apple.com/us/app/ticketmaster-buy-sell-tickets/id500003565?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "691797987",
-        "name": "Google Play Music",
-        "short_name": "googleplaymusic",
-        "url": "https://apps.apple.com/us/app/google-play-music/id691797987?uo=4"
     },
     {
         "classification": "99",
@@ -7750,13 +7554,6 @@
     },
     {
         "classification": "99",
-        "id": "522826277",
-        "name": "Remind: School Communication",
-        "short_name": "remindschoolcommunication",
-        "url": "https://apps.apple.com/us/app/remind-school-communication/id522826277?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "512393983",
         "name": "Postmates - Food Delivery",
         "short_name": "postmatesfooddelivery",
@@ -7785,13 +7582,6 @@
     },
     {
         "classification": "99",
-        "id": "491126018",
-        "name": "My Sprint Mobile",
-        "short_name": "mysprintmobile",
-        "url": "https://apps.apple.com/us/app/my-sprint-mobile/id491126018?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "485998842",
         "name": "Faithlife Study Bible",
         "short_name": "faithlife",
@@ -7810,13 +7600,6 @@
         "name": "PastorPaul.net",
         "short_name": "pastorpaul",
         "url": "https://apps.apple.com/us/app/pastorpaul-net/id1007508834?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "553834731",
-        "name": "Candy Crush Saga",
-        "short_name": "candycrushsaga",
-        "url": "https://apps.apple.com/us/app/candy-crush-saga/id553834731?uo=4"
     },
     {
         "classification": "99",
@@ -7943,13 +7726,6 @@
         "name": "Video Saver - Edit, Trim, Flip",
         "short_name": "videosaver",
         "url": "https://apps.apple.com/us/app/video-saver-edit-trim-flip/id1400133658?uo=4&at=1010lpjB&ct=tas"
-    },
-    {
-        "classification": "99",
-        "id": "974748812",
-        "name": "GIPHY: The GIF Search Engine",
-        "short_name": "giphythegifsearchengine",
-        "url": "https://apps.apple.com/us/app/giphy-the-gif-search-engine/id974748812?uo=4"
     },
     {
         "classification": "99",
@@ -8247,13 +8023,6 @@
     },
     {
         "classification": "99",
-        "id": "344542975",
-        "name": "Southwest Airlines",
-        "short_name": "southwestairlines",
-        "url": "https://apps.apple.com/us/app/southwest-airlines/id344542975?ign-mpt=uo%3D4"
-    },
-    {
-        "classification": "99",
         "id": "1065781769",
         "name": "Houseparty",
         "short_name": "houseparty",
@@ -8398,13 +8167,6 @@
         "name": "Would You Rather? 21 Questions",
         "short_name": "wouldyourather",
         "url": "https://apps.apple.com/us/app/would-you-rather-21-questions/id1011788068?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "355833469",
-        "name": "Goodreads: Book Reviews",
-        "short_name": "goodreadsbookreviews",
-        "url": "https://apps.apple.com/us/app/goodreads-book-reviews/id355833469?uo=4"
     },
     {
         "classification": "99",
@@ -8646,13 +8408,6 @@
     },
     {
         "classification": "99",
-        "id": "477537958",
-        "name": "Microsoft OneDrive",
-        "short_name": "onedrive",
-        "url": "https://apps.apple.com/us/app/microsoft-onedrive/id477537958?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1331794412",
         "name": "Bricks n Balls",
         "short_name": "bricksnballs",
@@ -8688,13 +8443,6 @@
     },
     {
         "classification": "99",
-        "id": "368677368",
-        "name": "Uber - Request a ride",
-        "short_name": "uberrequestaride",
-        "url": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1037595083",
         "name": "StepsApp Pedometer",
         "short_name": "stepsapp",
@@ -8723,24 +8471,10 @@
     },
     {
         "classification": "99",
-        "id": "577586159",
-        "name": "Yahoo Mail - Organized Email",
-        "short_name": "yahoomailorganizedemail",
-        "url": "https://apps.apple.com/us/app/yahoo-mail-organized-email/id577586159?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1367528046",
         "name": "Care.com Caregiver: Find Jobs",
         "short_name": "caregiver",
         "url": "https://apps.apple.com/us/app/care-com-caregiver-find-jobs/id1367528046?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "878577184",
-        "name": "SHEIN-Fashion Shopping Online",
-        "short_name": "sheinfashionshoppingonline",
-        "url": "https://apps.apple.com/us/app/shein-fashion-shopping-online/id878577184?uo=4"
     },
     {
         "classification": "99",
@@ -8755,13 +8489,6 @@
         "name": "UrbanSitter: Local Caregiver",
         "short_name": "urbansitter",
         "url": "https://apps.apple.com/us/app/urbansitter-local-caregiver/id548126716?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "283646709",
-        "name": "PayPal: Mobile Cash",
-        "short_name": "paypalmobilecash",
-        "url": "https://apps.apple.com/us/app/paypal-mobile-cash/id283646709?uo=4"
     },
     {
         "classification": "99",
@@ -8814,13 +8541,6 @@
     },
     {
         "classification": "99",
-        "id": "640360962",
-        "name": "Nextdoor: Local Neighborhood",
-        "short_name": "nextdoorlocalneighborhood",
-        "url": "https://apps.apple.com/us/app/nextdoor-local-neighborhood/id640360962?uo=4"
-    },
-    {
-        "classification": "99",
         "id": "1014635777",
         "name": "Life.Church",
         "short_name": "lifechurch",
@@ -8846,13 +8566,6 @@
         "name": "AppAdvice",
         "short_name": "appadvice",
         "url": "https://apps.apple.com/us/app/appadvice/id364906378?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "284862083",
-        "name": "The New York Times",
-        "short_name": "thenewyorktimes",
-        "url": "https://apps.apple.com/us/app/the-new-york-times/id284862083?uo=4"
     },
     {
         "classification": "99",
@@ -9266,13 +8979,6 @@
         "name": "Foodie - Camera for life",
         "short_name": "foodie",
         "url": "https://apps.apple.com/us/app/foodie-camera-for-life/id1076859004?uo=4"
-    },
-    {
-        "classification": "99",
-        "id": "509199715",
-        "name": "AMC Theatres: Movies & More",
-        "short_name": "amc",
-        "url": "https://apps.apple.com/us/app/amc-theatres-movies-more/id509199715?uo=4"
     },
     {
         "classification": "99",

@@ -19,6 +19,7 @@ const SearchBar = ({query, platform, submitted, cleared, toggled, onSearchSubmit
                 autoComplete="off"
                 value={query}
                 autoFocus={true}
+                spellCheck={false}
                 ref={input => refFunction(input, submitted, cleared, toggled)}
             />
 
