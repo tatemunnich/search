@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import {setResults, setQuery, toggleSubmitted, toggleCleared, toggleToggled} from "../../actions";
+import {setResults, setQuery, toggleSubmitted, toggleCleared, toggleToggled, setSubmittedQuery} from "../../actions";
 import {appSearch} from "./FuseInstances";
 import {searchButtonStyle} from "./Styles"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -55,6 +55,7 @@ const mapDispatchToProps = (dispatch) => {
             const results = appSearch(e.target[0].value, platform)
             dispatch(setResults(results))
             dispatch(toggleSubmitted())
+            dispatch(setSubmittedQuery(e.target[0].value))
         },
 
         onSearchChange: (e) => {
