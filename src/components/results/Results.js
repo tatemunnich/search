@@ -20,7 +20,7 @@ const Results = ({apps, submitted_query, platform}) => {
             </div>
 
         {submitted_query === "" ? null :
-            <footer className="header">
+            <footer>
                 <a href={emailRequestLink(submitted_query, platform)} target="_blank" rel="noopener noreferrer"
                    style={{textDecoration: "none"}}>
                     <div>
