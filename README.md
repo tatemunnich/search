@@ -1,2 +1,2 @@
-# search
-A small web application created for BetterYou for users to see if they get credit for using certain apps.
+# BetterYou Wellness App Lookup
+A [simple web application](https://tatemunnich.github.io/search/) created with React and Redux for [BetterYou](https://betteryou.ai) users. BetterYou is a digital coach that allows individuals to maximize their time and stay focused on goals that matter. This application allows users to look up individual mobile phone applications to see if they are making progress to the wellness goals they set.
